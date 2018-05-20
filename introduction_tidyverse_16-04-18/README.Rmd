@@ -131,7 +131,7 @@ pokemon$legendary <- factor(pokemon$legendary)
 str(pokemon)
 ```
 
-Tidy data comes in a long format (remember: "each observation is a row"). The opposite is a wide format where each row is a case, which might be what you know from SPSS. Our data doesn't have a very nice long format. In the next step we will reshape our data into a better long format. 
+Tidy data comes in a long format (remember: "each observation is a row"). The opposite is a wide format where each row is a case, which might be what you know from SPSS. Depending on what you plan to do with your data, you might want to switch between long and wide formats. It all depends on what you define to be an observation. For this workshop, let's try our reshaping wide data into a long format. Our data doesn't have a very nice long format. In the next step we will reshape our data into a better long format.
 - First, take a look at our data set: Which variables should be gathered to make the data less wide and give us one observation/row? 
 - Take a piece of paper and draw how the final long data set should look like. Which variables will we have and which values do they take? Discuss this with your neighbour or as a group.
 (10min)
